@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            padding: 10px;
+            width: 100%;
+            margin: 10px 10px 20px 0px;
+            border-radius: 10px;
+            align-items: center;
+
+        }
+        .myform{
+            position: relative;
+            top: 300px;
+            width: 800px;
+            margin: auto;
+            padding: 40px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 0 0 5px  grey;
+            
+        }
+        input[placeholder="enter name.."]{
+            font-style: italic;
+            font-weight: bolder;
+        }
+        input[placeholder="your password"]{
+            font-style: italic;
+            font-weight: bolder;
+        }
+        input:focus{
+            background-color: blueviolet;
+            color: #f1f1f1;
+            outline: 1px solid red;
+        }
+        .user{
+            background-color: lightblue;
+            font-weight: bolder;
+            font-size: larger;
+        }
+       select{
+        width: 100%;
+        padding: 12px;
+        margin-bottom:5px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        border: none;
+        border-bottom: 1px solid black;
+        color:black;
+       }
+       select option{
+        background-color: blueviolet;
+       }
+    </style>
+</head>
+<body>
+    <div class="myform">
+    <form for="username">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="enter name..">
+       
+        <label for="password"> Password</label>
+        <input type="password" id="password" placeholder="your password">
+
+        <select name="item">
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="4">4</option>
+        </select>
+        <input class="user" type="submit" value="submit">
+
+    </form>
+</div>
+</body>
+</html>
