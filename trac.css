@@ -14,23 +14,36 @@
         background-color: white;
         border-radius: 3px;
         position: fixed;
-        width: 99%;
+        width: 100%;
+        left: -10px;
         margin-top: -8px;
     }
 
 .travisdiv{
-    
     margin: auto;
-    width: 60%;
+    width:96%;
     align-items: center;
     position: absolute;
-    top: 120px;
-    left: 20%;
+    top: 3%;
+    left: 2%;
     z-index: 1;
     height: 1200px;   
     background-image: url(/download.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
-    border-radius: 20px;
-    box-shadow: 0 0 10px grey;
+    
+    box-shadow: 0 5px 20px black;
+}
+.whitediv{
+    background-color:white ;
+    width: 750px;
+    height: 800px;
+    align-items: center;
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    border-radius: 40px;
+    box-shadow:  0 0  20px black;
+    
+
 }
